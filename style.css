@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+header
+{
+	background-image:  url("pic7.jpg");
+	height:  100vh;
+	background-size: cover;
+	background-position: center;	
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.logo img
+{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+.main-nav li.active a
+{
+	border: 2px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1.5px solid white;
+}
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1330px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1400px;
+	margin-left: 0px;
+	margin-top: 0px; 
+}
+
+.title
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1
+{
+	color: white;
+	font-size: 70px;
+}
+.button
+{
+	position: absolute;
+	left: 50%;
+	top: 135%;
+	transform: translate(-50%,-50%);
+}
+
+.btn
+{
+	border: 2px solid white;
+	padding: 10px 30px;
+	color: white;
+	font-size: 15px;
+	background-color: orange;
+	text-decoration: none;
+
+}
+
